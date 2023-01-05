@@ -1,0 +1,84 @@
+.homeRoot {
+  margin-top: 10px;
+}
+
+.controlSectionBox {
+  border-radius: 2px;
+  padding: 6px;
+  background-color: white;
+}
+.controlSection {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #4758e4;
+}
+
+.presentStudentData {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.error {
+  padding: 4px;
+  color: red;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+}
+
+.classesBox {
+  padding: 4px;
+}
+
+.classesList {
+  display: flex;
+}
+
+.classesItem {
+  cursor: pointer;
+  margin: 4px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  padding: 4px;
+}
+
+.classBoxRoot {
+  border-radius: 2px;
+  padding: 6px;
+  margin: 4px 4px 4px 4px;
+  background-color: white;
+}
+
+.classBoxContent {
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #4758e4;
+}
+
+.buttonBox {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .classBoxRoot {
+    width: 60%;
+    border-radius: 2px;
+    padding: 6px;
+    margin: 4px 4px 4px 4px;
+    background-color: white;
+  }
+}
