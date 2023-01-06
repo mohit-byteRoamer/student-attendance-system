@@ -1,7 +1,11 @@
 .studentCardRoot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
-  padding: 4px;
   margin: 4px;
+  padding: 4px;
+  /* padding-left: 8px; */
   color: black;
   background-color: white;
 }

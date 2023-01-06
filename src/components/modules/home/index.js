@@ -68,7 +68,7 @@ let Home = function (props) {
         <div className="controlSection">
           <div>
             <div className="presentStudentData">
-              <div>Present Student : {presentStudent}</div>
+              <div>Present Stu : {presentStudent}</div>
               <div>Date : {new Date().toDateString()} </div>
             </div>
             <Header value={"Enter Roll Number"} />

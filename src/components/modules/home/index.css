@@ -16,10 +16,10 @@
 }
 
 .presentStudentData {
-  padding: 4px;
+  margin-bottom: 4px;
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -63,6 +63,18 @@
   background-color: #4758e4;
 }
 
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconArrow {
+  cursor: pointer;
+  padding: 6px;
+  width: 20px;
+  height: 12px;
+}
+
 .buttonBox {
   display: flex;
 }
@@ -75,7 +87,7 @@
   }
 
   .classBoxRoot {
-    width: 60%;
+    width: 90%;
     border-radius: 2px;
     padding: 6px;
     margin: 4px 4px 4px 4px;
